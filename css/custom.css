@@ -1,0 +1,153 @@
+:root {
+  --bs-primary: #2563eb;
+  --bs-secondary: #1d4ed8;
+  --bs-success: #1e40af;
+  --bs-danger: #1e3a8a;
+  --bs-warning: #3b82f6;
+  --bs-info: #60a5fa;
+
+  --bs-body-bg: #eef2ff;
+  --bs-body-color: #0f172a;
+}
+
+body {
+  background: linear-gradient(135deg, #eef2ff, #dbeafe);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0f172a, #1e40af) !important;
+  box-shadow: 0 6px 25px rgba(30,64,175,0.4);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+  opacity: 0.85;
+}
+
+h2 {
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+form.card {
+  background: white !important;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(37,99,235,0.15);
+}
+
+.form-select {
+  border-radius: 10px;
+  border: 1px solid #93c5fd;
+}
+
+.form-select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 0.2rem rgba(37,99,235,0.25);
+}
+
+.card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 8px 25px rgba(37,99,235,0.15);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(37,99,235,0.25);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #2563eb, #60a5fa);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #1d4ed8, #3b82f6);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.modal-content {
+  border-radius: 18px;
+  border: none;
+  box-shadow: 0 15px 40px rgba(37,99,235,0.3);
+}
+
+.modal-header {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  color: white;
+}
+
+.modal-footer .btn {
+  border-radius: 10px;
+}
+
+.toast-header {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb) !important;
+  color: white !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.btn-ver-receta {
+  background: linear-gradient(45deg, #2563eb, #60a5fa);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-ver-receta:hover {
+  background: linear-gradient(45deg, #1d4ed8, #3b82f6);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+
+.btn-ver-receta:active {
+  transform: scale(0.97);
+}
+
+.btn-favorito {
+  background: linear-gradient(45deg, #1e3a8a, #2563eb);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-favorito:hover {
+  background: linear-gradient(45deg, #1d4ed8, #3b82f6);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
+}
+
+.btn-favorito:active {
+  transform: scale(0.97);
+}
